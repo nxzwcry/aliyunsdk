@@ -1,0 +1,40 @@
+{
+    "name": "aliyun/openapi",
+    "description": "Create from aliyun-openapi-php-sdk at 2017-9-9",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nxzwcry",
+            "email": "nxzwcry@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+	"psr-4":{
+		"Aliyun\\Ecs\\": "aliyun-php-sdk-ecs/",
+		"Aliyun\\batchcompute\\": "aliyun-php-sdk-batchcompute/",
+		"Aliyun\\sts\\": "aliyun-php-sdk-sts/",
+		"Aliyun\\push\\": "aliyun-php-sdk-push/",
+		"Aliyun\\ram\\": "aliyun-php-sdk-ram/",
+		"Aliyun\\ubsms\\": "aliyun-php-sdk-ubsms/",
+		"Aliyun\\ubsms-inner\\": "aliyun-php-sdk-ubsms-inner/",
+		"Aliyun\\green\\": "aliyun-php-sdk-green/",
+		"Aliyun\\dm\\": "aliyun-php-sdk-dm/",
+		"Aliyun\\iot\\": "aliyun-php-sdk-iot/",
+		"Aliyun\\jaq\\": "aliyun-php-sdk-jaq/",
+		"Aliyun\\cs\\": "aliyun-php-sdk-cs/",
+		"Aliyun\\live\\": "aliyun-php-sdk-live/",
+		"Aliyun\\vpc\\": "aliyun-php-sdk-vpc/",
+		"Aliyun\\kms\\": "aliyun-php-sdk-kms/",
+		"Aliyun\\rds\\": "aliyun-php-sdk-rds/",
+		"Aliyun\\slb\\": "aliyun-php-sdk-slb/",
+		"Aliyun\\cms\\": "aliyun-php-sdk-cms/",
+		"Aliyun\\cloudapi\\": "aliyun-php-sdk-cloudapi/"
+		},
+	"files":[
+		"aliyun-php-sdk-core/Config.php"
+	]
+     }
+}
